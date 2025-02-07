@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "jsx": "react-jsx",
+      "module": "ESNext",
+      "moduleResolution": "Node",
+      "target": "ESNext",
+      "strict": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": false,
+      "declaration": true,    // ✅ Enable declaration files
+      "declarationDir": "dist/types" // ✅ Works only if declaration is enabled
+    }
+  }
+  

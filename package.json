@@ -1,0 +1,14 @@
+{
+  "name": "react-ui-yahiko",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "npx rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
