@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import * as React from 'react';
+import { useState } from "react";
 
 interface CustomNavbarProps {
   img?: string;
@@ -192,4 +193,4 @@ const CustomNavbar: React.FC<CustomNavbarProps> = ({
   );
 };
 
-export default CustomNavbar;
+export  {CustomNavbar};

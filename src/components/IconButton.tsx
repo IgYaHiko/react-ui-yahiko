@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from 'react';
 
 interface IconButtonProps {
   icon: React.ReactNode; // Accepts an icon (e.g., <FaSearch />, <img />)
@@ -36,4 +36,4 @@ const IconButton: React.FC<IconButtonProps> = ({ icon, onClick, styles, size = 4
   );
 };
 
-export default IconButton;
+export  {IconButton};
